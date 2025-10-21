@@ -38,13 +38,3 @@ Este repositório contém exercícios práticos para treinar os principais tipos
 ## 🚀 Objetivo
 
 Praticar os fundamentos da linguagem Python por meio de exercícios simples e diretos, desenvolvendo lógica de programação e domínio dos tipos primitivos.
-
----
-
-## 🧠 Dica
-
-Use `input()` para capturar dados do usuário e `print()` para exibir os resultados. Experimente também funções como `int()`, `float()`, `str()`, `bool()` para conversões de tipo.
-
----
-
-📂 Sinta-se à vontade para criar um arquivo para cada exercício ou agrupar por tipo. Bons estudos!
