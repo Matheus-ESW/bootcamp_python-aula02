@@ -47,4 +47,4 @@ Use `input()` para capturar dados do usuário e `print()` para exibir os resulta
 
 ---
 
-📂 Sinta-se à vontade para criar um arquivo para cada exercício ou agrupar por tipo. Bons estudos!# bootcamp_python-aula02
+📂 Sinta-se à vontade para criar um arquivo para cada exercício ou agrupar por tipo. Bons estudos!
