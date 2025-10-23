@@ -110,9 +110,42 @@
 
 #Exercício 21: Conversor de Temperatura
 
+# try:
+#     celsius = float(input("Digite a temperatura em Celsius: "))
+#     fahrenheit = (celsius * 9/5) + 32
+#     print(f"A temperatura em Fahrenheit é: {fahrenheit}")
+# except ValueError:
+#     print("Por favor, insira um valor numérico válido para a temperatura.")
+
+#Exercício 22: Verificador de Palíndromo
+
+# entrada = input("Digite uma palavra ou frase: ")
+# if isinstance(entrada, str):
+#     formatado = entrada.replace(" ", "").lower()
+#     if formatado == formatado[::-1]:
+#         print("É um palíndromo.")
+#     else:
+#         print("Não é um palíndromo.")
+# else:
+#     print("Entrada inválida. Por favor, digite uma palavra ou frase.")
+
+#Exercício 23: Calculadora Simples
+
 try:
-    celsius = float(input("Digite a temperatura em Celsius: "))
-    fahrenheit = (celsius * 9/5) + 32
-    print(f"A temperatura em Fahrenheit é: {fahrenheit}")
+    num1 = float(input("Digite o primeiro número: "))
+    num2 = float(input("Digite o segundo número: "))
+    operador = input("Digite o operador (+, -, *, /): ")
+    if operador == '+':
+        resultado = num1 + num2
+    elif operador == '-':
+        resultado = num1 - num2
+    elif operador == '*':
+        resultado = num1 * num2
+    elif operador == '/' and num2 != 0:
+        resultado = num1 / num2
+    else:
+        print("Operador inválido ou divisão por zero.")
+    resultado="NaN"
+    print("Resultado:", resultado)
 except ValueError:
-    print("Por favor, insira um valor numérico válido para a temperatura.")
+    print("Erro: Entrada inválida. Certifique-se de inserir números.")
