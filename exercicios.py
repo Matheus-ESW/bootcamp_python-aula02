@@ -64,6 +64,21 @@
 # print("Resultado da operação OR: " + str(resultado))
 
 # ex3
-expr = input("Digite uma expressão booleana (True/False): ")
-resultado = not (expr == 'True')
-print("Valor invertido: " + str(resultado))
+# expr = input("Digite uma expressão booleana (True/False): ")
+# resultado = not (expr == 'True')
+# print("Valor invertido: " + str(resultado))
+
+# ex4
+# num1 = int(input("Digite o primeiro número inteiro: "))
+# num2 = int(input("Digite o segundo número inteiro: ")) 
+# sao_iguais = (num1 == num2)
+# print("Os números são iguais: " + str(sao_iguais))
+
+# ex5
+# Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
+num1 = int(input("Digite o primeiro número inteiro: "))
+num2 = int(input("Digite o segundo número inteiro: "))
+sao_diferentes = (num1 != num2)
+print("Os números são diferentes: " + str(sao_diferentes))
+
+print("Fim dos exercícios da aula II.")
