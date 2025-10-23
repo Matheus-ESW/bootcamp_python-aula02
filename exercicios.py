@@ -58,7 +58,12 @@
 # print("Resultado da operação AND: " + str(resultado))
 
 # ex2
-expr1 = input("Digite a primeira expressão booleana (True/False): ")
-expr2 = input("Digite a segunda expressão booleana (True/False): ")
-resultado = (expr1 == 'True') or (expr2 == 'True')
-print("Resultado da operação OR: " + str(resultado))
+# expr1 = input("Digite a primeira expressão booleana (True/False): ")
+# expr2 = input("Digite a segunda expressão booleana (True/False): ")
+# resultado = (expr1 == 'True') or (expr2 == 'True')
+# print("Resultado da operação OR: " + str(resultado))
+
+# ex3
+expr = input("Digite uma expressão booleana (True/False): ")
+resultado = not (expr == 'True')
+print("Valor invertido: " + str(resultado))
