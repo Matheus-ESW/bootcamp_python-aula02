@@ -76,9 +76,43 @@
 
 # ex5
 # Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
-num1 = int(input("Digite o primeiro número inteiro: "))
-num2 = int(input("Digite o segundo número inteiro: "))
-sao_diferentes = (num1 != num2)
-print("Os números são diferentes: " + str(sao_diferentes))
+# num1 = int(input("Digite o primeiro número inteiro: "))
+# num2 = int(input("Digite o segundo número inteiro: "))
+# sao_diferentes = (num1 != num2)
+# print("Os números são diferentes: " + str(sao_diferentes))
 
-print("Fim dos exercícios da aula II.")
+# print("Fim dos exercícios da aula II.")
+
+# Exemplo que causa TypeError
+
+# nome = "Alice"
+
+# try:
+#     resultado = len(nome)
+#     print("O comprimento do nome é:", resultado)
+# except TypeError as e:
+#     print(e)  # Imprime a mensagem de erro
+
+# try:
+#     # Código que pode gerar uma exceção
+#     resultado = 10 / 0
+# except ZeroDivisionError:
+#     # Código que executa se a exceção ZeroDivisionError for levantada
+#     print("Divisão por zero não é permitida.")
+
+# idade = 20
+# if idade < 18:
+#     print("Menor de idade")
+# elif idade == 18:
+#     print("Exatamente 18 anos")
+# else:
+#     print("Maior de idade")
+
+#Exercício 21: Conversor de Temperatura
+
+try:
+    celsius = float(input("Digite a temperatura em Celsius: "))
+    fahrenheit = (celsius * 9/5) + 32
+    print(f"A temperatura em Fahrenheit é: {fahrenheit}")
+except ValueError:
+    print("Por favor, insira um valor numérico válido para a temperatura.")
